@@ -36,7 +36,7 @@ use std::io;
 use std::io::prelude::*;
 
 fn main() {
-    let rainbowtime = true;
+    let rainbowtime: bool = true;
     // set above to false to disable rainbows (good for logging purposes.)
 
     let stdin = io::stdin();
